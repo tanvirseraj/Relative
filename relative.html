@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative</title>
+    <style>
+        .container{
+            background-color: rgba(26, 208, 214, 0.904);
+        }
+         div{
+             height: 100px;
+             width:100px;
+         }
+         #first{
+             background-color:orange;
+         }
+         #second{
+             background-color: red;
+             position: relative;
+             left:20px;
+             top:20px;
+         }
+         #third{
+             background-color:black;
+         }
+
+    </style>
+</head>
+<body>
+    <section>
+       <h1>Something</h1>
+    </section>
+    <section class="container">
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="third"></div>
+    </section>
+</body>
+</html>
